@@ -8,6 +8,7 @@
 
 import UIKit
 import WebKit
+import QuickLook
 class ViewController: UIViewController {
 
     @IBOutlet weak var webView: UIWebView!

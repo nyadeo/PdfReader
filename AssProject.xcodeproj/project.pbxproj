@@ -15,6 +15,11 @@
 		A17CC5B41E4D869700F67053 /* Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A17CC5B31E4D869700F67053 /* Book.pdf */; };
 		A17CC5B71E4D96DC00F67053 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17CC5B61E4D96DC00F67053 /* QuartzCore.framework */; };
 		A17CC5B91E502EC100F67053 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CC5B81E502EC100F67053 /* ScrollViewController.swift */; };
+		A17CC5BB1E5068EF00F67053 /* QuickLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CC5BA1E5068EF00F67053 /* QuickLookViewController.swift */; };
+		A1BD39B11E50C25D00F0D298 /* AppCoda-Keynote.key in Resources */ = {isa = PBXBuildFile; fileRef = A1BD39B01E50C25D00F0D298 /* AppCoda-Keynote.key */; };
+		A1BD39B31E50C26800F0D298 /* AppCoda-Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = A1BD39B21E50C26800F0D298 /* AppCoda-Text.txt */; };
+		A1BD39B51E50C27300F0D298 /* AppCoda-Word.docx in Resources */ = {isa = PBXBuildFile; fileRef = A1BD39B41E50C27300F0D298 /* AppCoda-Word.docx */; };
+		A1BD39B71E50C28300F0D298 /* AppCoda-Image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A1BD39B61E50C28300F0D298 /* AppCoda-Image.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		A17CC5B31E4D869700F67053 /* Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Book.pdf; sourceTree = "<group>"; };
 		A17CC5B61E4D96DC00F67053 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A17CC5B81E502EC100F67053 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		A17CC5BA1E5068EF00F67053 /* QuickLookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLookViewController.swift; sourceTree = "<group>"; };
+		A1BD39B01E50C25D00F0D298 /* AppCoda-Keynote.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AppCoda-Keynote.key"; sourceTree = "<group>"; };
+		A1BD39B21E50C26800F0D298 /* AppCoda-Text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AppCoda-Text.txt"; sourceTree = "<group>"; };
+		A1BD39B41E50C27300F0D298 /* AppCoda-Word.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AppCoda-Word.docx"; sourceTree = "<group>"; };
+		A1BD39B61E50C28300F0D298 /* AppCoda-Image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AppCoda-Image.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,12 @@
 				A17CC5A11E4B657500F67053 /* AppDelegate.swift */,
 				A17CC5A31E4B657500F67053 /* ViewController.swift */,
 				A17CC5B31E4D869700F67053 /* Book.pdf */,
+				A1BD39B01E50C25D00F0D298 /* AppCoda-Keynote.key */,
+				A1BD39B21E50C26800F0D298 /* AppCoda-Text.txt */,
+				A1BD39B61E50C28300F0D298 /* AppCoda-Image.jpeg */,
+				A1BD39B41E50C27300F0D298 /* AppCoda-Word.docx */,
 				A17CC5A51E4B657500F67053 /* Main.storyboard */,
+				A17CC5BA1E5068EF00F67053 /* QuickLookViewController.swift */,
 				A17CC5B81E502EC100F67053 /* ScrollViewController.swift */,
 				A17CC5A81E4B657500F67053 /* Assets.xcassets */,
 				A17CC5AA1E4B657500F67053 /* LaunchScreen.storyboard */,
@@ -142,10 +157,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BD39B31E50C26800F0D298 /* AppCoda-Text.txt in Resources */,
 				A17CC5B41E4D869700F67053 /* Book.pdf in Resources */,
 				A17CC5AC1E4B657500F67053 /* LaunchScreen.storyboard in Resources */,
 				A17CC5A91E4B657500F67053 /* Assets.xcassets in Resources */,
+				A1BD39B11E50C25D00F0D298 /* AppCoda-Keynote.key in Resources */,
 				A17CC5A71E4B657500F67053 /* Main.storyboard in Resources */,
+				A1BD39B71E50C28300F0D298 /* AppCoda-Image.jpeg in Resources */,
+				A1BD39B51E50C27300F0D298 /* AppCoda-Word.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17CC5A41E4B657500F67053 /* ViewController.swift in Sources */,
+				A17CC5BB1E5068EF00F67053 /* QuickLookViewController.swift in Sources */,
 				A17CC5B91E502EC100F67053 /* ScrollViewController.swift in Sources */,
 				A17CC5A21E4B657500F67053 /* AppDelegate.swift in Sources */,
 			);

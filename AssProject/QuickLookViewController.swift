@@ -14,7 +14,8 @@ class QuickLookViewController: UIViewController,UITableViewDelegate,UITableViewD
     var fileURLs = [NSURL]()
     let quickLookController = QLPreviewController()
     let book = ["Book.pdf","AppCoda-Word.docx","AppCoda-Keynote.key","AppCoda-Text.txt","AppCoda-Image.jpeg"]
-    
+    let color = UIColor.blue
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,6 +27,11 @@ class QuickLookViewController: UIViewController,UITableViewDelegate,UITableViewD
         prepareFileURLs()
     }
     
+    func setInteriorColor(_ color: UIColor!){
+    
+    
+    }
+
     func prepareFileURLs() {
         for file in book {
             let fileParts = file.components(separatedBy: ".")
@@ -72,7 +78,8 @@ class QuickLookViewController: UIViewController,UITableViewDelegate,UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if QLPreviewController.canPreview(fileURLs[indexPath.row]) {
             quickLookController.currentPreviewItemIndex = indexPath.row
-            navigationController?.pushViewController(quickLookController, animated: true)
+            //navigationController?.pushViewController(quickLookController, animated: true)
+            present(quickLookController, animated: true, completion: nil)
         }
     }
 }

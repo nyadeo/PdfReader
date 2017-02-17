@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3655ECCA1E557C1600647BA3 /* Advanced Network Programming - Principles and Techniques.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECB81E557C1600647BA3 /* Advanced Network Programming - Principles and Techniques.pdf */; };
+		3655ECCB1E557C1600647BA3 /* An Introduction to Network Programming with Java.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECB91E557C1600647BA3 /* An Introduction to Network Programming with Java.pdf */; };
+		3655ECCC1E557C1600647BA3 /* Apress.Beginning.Android.ADK.with.Arduino.Mar.2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECBA1E557C1600647BA3 /* Apress.Beginning.Android.ADK.with.Arduino.Mar.2012.pdf */; };
+		3655ECCD1E557C1600647BA3 /* Arduino - Reference.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECBB1E557C1600647BA3 /* Arduino - Reference.pdf */; };
+		3655ECCE1E557C1600647BA3 /* Beginning Linux Programming, 4th Edition.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECBC1E557C1600647BA3 /* Beginning Linux Programming, 4th Edition.pdf */; };
+		3655ECCF1E557C1600647BA3 /* beginning_java_ee_6_with_glassfish_3_2nd_edition.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECBD1E557C1600647BA3 /* beginning_java_ee_6_with_glassfish_3_2nd_edition.pdf */; };
+		3655ECD01E557C1600647BA3 /* Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECBE1E557C1600647BA3 /* Book.pdf */; };
+		3655ECD11E557C1600647BA3 /* Building Android Accessories using the Open Accessory Development Kit and Arduino Presentation 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECBF1E557C1600647BA3 /* Building Android Accessories using the Open Accessory Development Kit and Arduino Presentation 1.pdf */; };
+		3655ECD21E557C1600647BA3 /* Capture_Troubleshooting.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC01E557C1600647BA3 /* Capture_Troubleshooting.pdf */; };
+		3655ECD31E557C1600647BA3 /* CN8001-PacketCraftingUsingScapy-WilliamZereneh.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC11E557C1600647BA3 /* CN8001-PacketCraftingUsingScapy-WilliamZereneh.pdf */; };
+		3655ECD41E557C1600647BA3 /* cprogramming_tutorial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC21E557C1600647BA3 /* cprogramming_tutorial.pdf */; };
+		3655ECD51E557C1600647BA3 /* Designing and Implementing Linux Firewalls and QoS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC31E557C1600647BA3 /* Designing and Implementing Linux Firewalls and QoS.pdf */; };
+		3655ECD61E557C1600647BA3 /* Expert_Python_programming.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC41E557C1600647BA3 /* Expert_Python_programming.pdf */; };
+		3655ECD71E557C1600647BA3 /* exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC51E557C1600647BA3 /* exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding.pdf */; };
+		3655ECD81E557C1600647BA3 /* Foundations of Python Network Programming, 2nd Edition.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC61E557C1600647BA3 /* Foundations of Python Network Programming, 2nd Edition.pdf */; };
+		3655ECD91E557C1600647BA3 /* Gray_hat_Python.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC71E557C1600647BA3 /* Gray_hat_Python.pdf */; };
+		3655ECDA1E557C1600647BA3 /* Hacking Exposed Malware and Rootkits.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC81E557C1600647BA3 /* Hacking Exposed Malware and Rootkits.pdf */; };
+		3655ECDB1E557C1600647BA3 /* obj.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3655ECC91E557C1600647BA3 /* obj.pdf */; };
+		3655ECDF1E56B3F100647BA3 /* CustomerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3655ECDE1E56B3F100647BA3 /* CustomerCellTableViewCell.swift */; };
 		A17CC5A21E4B657500F67053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CC5A11E4B657500F67053 /* AppDelegate.swift */; };
 		A17CC5A41E4B657500F67053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CC5A31E4B657500F67053 /* ViewController.swift */; };
 		A17CC5A71E4B657500F67053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17CC5A51E4B657500F67053 /* Main.storyboard */; };
 		A17CC5A91E4B657500F67053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17CC5A81E4B657500F67053 /* Assets.xcassets */; };
 		A17CC5AC1E4B657500F67053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17CC5AA1E4B657500F67053 /* LaunchScreen.storyboard */; };
-		A17CC5B41E4D869700F67053 /* Book.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A17CC5B31E4D869700F67053 /* Book.pdf */; };
 		A17CC5B71E4D96DC00F67053 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17CC5B61E4D96DC00F67053 /* QuartzCore.framework */; };
 		A17CC5B91E502EC100F67053 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CC5B81E502EC100F67053 /* ScrollViewController.swift */; };
 		A17CC5BB1E5068EF00F67053 /* QuickLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CC5BA1E5068EF00F67053 /* QuickLookViewController.swift */; };
@@ -23,6 +41,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3655ECB81E557C1600647BA3 /* Advanced Network Programming - Principles and Techniques.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Advanced Network Programming - Principles and Techniques.pdf"; sourceTree = "<group>"; };
+		3655ECB91E557C1600647BA3 /* An Introduction to Network Programming with Java.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "An Introduction to Network Programming with Java.pdf"; sourceTree = "<group>"; };
+		3655ECBA1E557C1600647BA3 /* Apress.Beginning.Android.ADK.with.Arduino.Mar.2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Apress.Beginning.Android.ADK.with.Arduino.Mar.2012.pdf; sourceTree = "<group>"; };
+		3655ECBB1E557C1600647BA3 /* Arduino - Reference.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Arduino - Reference.pdf"; sourceTree = "<group>"; };
+		3655ECBC1E557C1600647BA3 /* Beginning Linux Programming, 4th Edition.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Beginning Linux Programming, 4th Edition.pdf"; sourceTree = "<group>"; };
+		3655ECBD1E557C1600647BA3 /* beginning_java_ee_6_with_glassfish_3_2nd_edition.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = beginning_java_ee_6_with_glassfish_3_2nd_edition.pdf; sourceTree = "<group>"; };
+		3655ECBE1E557C1600647BA3 /* Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Book.pdf; sourceTree = "<group>"; };
+		3655ECBF1E557C1600647BA3 /* Building Android Accessories using the Open Accessory Development Kit and Arduino Presentation 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Building Android Accessories using the Open Accessory Development Kit and Arduino Presentation 1.pdf"; sourceTree = "<group>"; };
+		3655ECC01E557C1600647BA3 /* Capture_Troubleshooting.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Capture_Troubleshooting.pdf; sourceTree = "<group>"; };
+		3655ECC11E557C1600647BA3 /* CN8001-PacketCraftingUsingScapy-WilliamZereneh.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CN8001-PacketCraftingUsingScapy-WilliamZereneh.pdf"; sourceTree = "<group>"; };
+		3655ECC21E557C1600647BA3 /* cprogramming_tutorial.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = cprogramming_tutorial.pdf; sourceTree = "<group>"; };
+		3655ECC31E557C1600647BA3 /* Designing and Implementing Linux Firewalls and QoS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Designing and Implementing Linux Firewalls and QoS.pdf"; sourceTree = "<group>"; };
+		3655ECC41E557C1600647BA3 /* Expert_Python_programming.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Expert_Python_programming.pdf; sourceTree = "<group>"; };
+		3655ECC51E557C1600647BA3 /* exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding.pdf"; sourceTree = "<group>"; };
+		3655ECC61E557C1600647BA3 /* Foundations of Python Network Programming, 2nd Edition.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Foundations of Python Network Programming, 2nd Edition.pdf"; sourceTree = "<group>"; };
+		3655ECC71E557C1600647BA3 /* Gray_hat_Python.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gray_hat_Python.pdf; sourceTree = "<group>"; };
+		3655ECC81E557C1600647BA3 /* Hacking Exposed Malware and Rootkits.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hacking Exposed Malware and Rootkits.pdf"; sourceTree = "<group>"; };
+		3655ECC91E557C1600647BA3 /* obj.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = obj.pdf; sourceTree = "<group>"; };
+		3655ECDE1E56B3F100647BA3 /* CustomerCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerCellTableViewCell.swift; path = ../CustomerCellTableViewCell.swift; sourceTree = "<group>"; };
 		A17CC59E1E4B657500F67053 /* AssProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17CC5A11E4B657500F67053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17CC5A31E4B657500F67053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +67,6 @@
 		A17CC5A81E4B657500F67053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17CC5AB1E4B657500F67053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17CC5AD1E4B657500F67053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17CC5B31E4D869700F67053 /* Book.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Book.pdf; sourceTree = "<group>"; };
 		A17CC5B61E4D96DC00F67053 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A17CC5B81E502EC100F67053 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		A17CC5BA1E5068EF00F67053 /* QuickLookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLookViewController.swift; sourceTree = "<group>"; };
@@ -72,9 +108,27 @@
 		A17CC5A01E4B657500F67053 /* AssProject */ = {
 			isa = PBXGroup;
 			children = (
+				3655ECDE1E56B3F100647BA3 /* CustomerCellTableViewCell.swift */,
+				3655ECB81E557C1600647BA3 /* Advanced Network Programming - Principles and Techniques.pdf */,
+				3655ECB91E557C1600647BA3 /* An Introduction to Network Programming with Java.pdf */,
+				3655ECBA1E557C1600647BA3 /* Apress.Beginning.Android.ADK.with.Arduino.Mar.2012.pdf */,
+				3655ECBB1E557C1600647BA3 /* Arduino - Reference.pdf */,
+				3655ECBC1E557C1600647BA3 /* Beginning Linux Programming, 4th Edition.pdf */,
+				3655ECBD1E557C1600647BA3 /* beginning_java_ee_6_with_glassfish_3_2nd_edition.pdf */,
+				3655ECBE1E557C1600647BA3 /* Book.pdf */,
+				3655ECBF1E557C1600647BA3 /* Building Android Accessories using the Open Accessory Development Kit and Arduino Presentation 1.pdf */,
+				3655ECC01E557C1600647BA3 /* Capture_Troubleshooting.pdf */,
+				3655ECC11E557C1600647BA3 /* CN8001-PacketCraftingUsingScapy-WilliamZereneh.pdf */,
+				3655ECC21E557C1600647BA3 /* cprogramming_tutorial.pdf */,
+				3655ECC31E557C1600647BA3 /* Designing and Implementing Linux Firewalls and QoS.pdf */,
+				3655ECC41E557C1600647BA3 /* Expert_Python_programming.pdf */,
+				3655ECC51E557C1600647BA3 /* exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding.pdf */,
+				3655ECC61E557C1600647BA3 /* Foundations of Python Network Programming, 2nd Edition.pdf */,
+				3655ECC71E557C1600647BA3 /* Gray_hat_Python.pdf */,
+				3655ECC81E557C1600647BA3 /* Hacking Exposed Malware and Rootkits.pdf */,
+				3655ECC91E557C1600647BA3 /* obj.pdf */,
 				A17CC5A11E4B657500F67053 /* AppDelegate.swift */,
 				A17CC5A31E4B657500F67053 /* ViewController.swift */,
-				A17CC5B31E4D869700F67053 /* Book.pdf */,
 				A1BD39B01E50C25D00F0D298 /* AppCoda-Keynote.key */,
 				A1BD39B21E50C26800F0D298 /* AppCoda-Text.txt */,
 				A1BD39B61E50C28300F0D298 /* AppCoda-Image.jpeg */,
@@ -157,14 +211,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3655ECDA1E557C1600647BA3 /* Hacking Exposed Malware and Rootkits.pdf in Resources */,
+				3655ECCD1E557C1600647BA3 /* Arduino - Reference.pdf in Resources */,
 				A1BD39B31E50C26800F0D298 /* AppCoda-Text.txt in Resources */,
-				A17CC5B41E4D869700F67053 /* Book.pdf in Resources */,
+				3655ECCC1E557C1600647BA3 /* Apress.Beginning.Android.ADK.with.Arduino.Mar.2012.pdf in Resources */,
+				3655ECCA1E557C1600647BA3 /* Advanced Network Programming - Principles and Techniques.pdf in Resources */,
+				3655ECD61E557C1600647BA3 /* Expert_Python_programming.pdf in Resources */,
 				A17CC5AC1E4B657500F67053 /* LaunchScreen.storyboard in Resources */,
 				A17CC5A91E4B657500F67053 /* Assets.xcassets in Resources */,
+				3655ECD51E557C1600647BA3 /* Designing and Implementing Linux Firewalls and QoS.pdf in Resources */,
 				A1BD39B11E50C25D00F0D298 /* AppCoda-Keynote.key in Resources */,
+				3655ECD01E557C1600647BA3 /* Book.pdf in Resources */,
 				A17CC5A71E4B657500F67053 /* Main.storyboard in Resources */,
+				3655ECCE1E557C1600647BA3 /* Beginning Linux Programming, 4th Edition.pdf in Resources */,
+				3655ECCF1E557C1600647BA3 /* beginning_java_ee_6_with_glassfish_3_2nd_edition.pdf in Resources */,
 				A1BD39B71E50C28300F0D298 /* AppCoda-Image.jpeg in Resources */,
+				3655ECD81E557C1600647BA3 /* Foundations of Python Network Programming, 2nd Edition.pdf in Resources */,
+				3655ECDB1E557C1600647BA3 /* obj.pdf in Resources */,
+				3655ECD41E557C1600647BA3 /* cprogramming_tutorial.pdf in Resources */,
+				3655ECCB1E557C1600647BA3 /* An Introduction to Network Programming with Java.pdf in Resources */,
+				3655ECD71E557C1600647BA3 /* exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding.pdf in Resources */,
 				A1BD39B51E50C27300F0D298 /* AppCoda-Word.docx in Resources */,
+				3655ECD91E557C1600647BA3 /* Gray_hat_Python.pdf in Resources */,
+				3655ECD21E557C1600647BA3 /* Capture_Troubleshooting.pdf in Resources */,
+				3655ECD11E557C1600647BA3 /* Building Android Accessories using the Open Accessory Development Kit and Arduino Presentation 1.pdf in Resources */,
+				3655ECD31E557C1600647BA3 /* CN8001-PacketCraftingUsingScapy-WilliamZereneh.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17CC5A41E4B657500F67053 /* ViewController.swift in Sources */,
+				3655ECDF1E56B3F100647BA3 /* CustomerCellTableViewCell.swift in Sources */,
 				A17CC5BB1E5068EF00F67053 /* QuickLookViewController.swift in Sources */,
 				A17CC5B91E502EC100F67053 /* ScrollViewController.swift in Sources */,
 				A17CC5A21E4B657500F67053 /* AppDelegate.swift in Sources */,

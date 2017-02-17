@@ -13,7 +13,7 @@ class QuickLookViewController: UIViewController,UITableViewDelegate,UITableViewD
     @IBOutlet weak var tableView: UITableView!
     var fileURLs = [NSURL]()
     let quickLookController = QLPreviewController()
-    let book = ["Book.pdf","AppCoda-Word.docx","AppCoda-Keynote.key","AppCoda-Text.txt","AppCoda-Image.jpeg"]
+    let book =  ["Designing and Implementing Linux Firewalls and QoS.pdf","Expert_Python_programming.pdf","exploit-writing-tutorial-part-9-introduction-to-win32-shellcoding.pdf","Foundations of Python Network Programming, 2nd Edition.pdf","Gray_hat_Python.pdf","Hacking Exposed Malware and Rootkits.pdf","Advanced Network Programming - Principles and Techniques.pdf","An Introduction to Network Programming with Java.pdf","Apress.Beginning.Android.ADK.with.Arduino.Mar.2012.pdf","Arduino - Reference.pdf","Beginning Linux Programming, 4th Edition.pdf","beginning_java_ee_6_with_glassfish_3_2nd_edition.pdf","Building Android Accessories using the Open Accessory Development Kit and Arduino Presentation 1.pdf","Capture_Troubleshooting.pdf","cprogramming_tutorial.pdf","obj.pdf"]
     let color = UIColor.blue
 
     override func viewDidLoad() {
@@ -25,6 +25,9 @@ class QuickLookViewController: UIViewController,UITableViewDelegate,UITableViewD
         self.quickLookController.delegate = self
         self.quickLookController.dataSource = self
         prepareFileURLs()
+        
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 150
     }
     
     func setInteriorColor(_ color: UIColor!){
@@ -67,10 +70,11 @@ class QuickLookViewController: UIViewController,UITableViewDelegate,UITableViewD
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell  = tableView.dequeueReusableCell(withIdentifier: "idCell", for: indexPath)
+        let cell  = tableView.dequeueReusableCell(withIdentifier: "read", for: indexPath) as! CustomerCellTableViewCell
         let currentFileParts = extractAndBreakFilenameInComponents(fileURL: fileURLs[indexPath.row])
         
-        cell.textLabel?.text = currentFileParts.fileName
+        
+        cell.costomizeCell(title: currentFileParts.fileName, image: currentFileParts.fileName)
         
         return cell;
     }
